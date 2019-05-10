@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/public.css">
+    <link rel="stylesheet" href="css/car.css">
+</head>
+<body>
+    <div class="header margin">
+        <img src="images/car.png">
+        <a href="index.html"><p>去添加商品</p></a>
+        <div class="sea">
+            <input type="text"  id="txt"  placeholder="网红零食">
+            <input type="submit" id="sub" value="搜索">
+        </div>
+    </div>
+    <table class="margin">
+        <thead>
+            <tr>
+                <th>选择</th>
+                <th>图片</th>
+                <th>名字</th>
+                <th>价格</th>
+                <th>数量</th>
+                <th>操作</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- <tr>
+                <td><img src=""/></td>
+                <td>Data</td>
+                <td>Data</td>
+                <td>Data</td>
+                <td><em>删除</em></td>
+            </tr> -->
+        </tbody>
+        <tfoot>
+            <th colspan="2"><input class="sum" type="checkbox" name="goods">全选</th>
+            <th colspan="2">合计金额&nbsp;:</th>
+            <th class='money' ></th>
+            <th class="pay">立即支付</th>
+        </tfoot>
+    </table>
+    <!-- <div class="footer margin">
+        <p><input class="sum" type="checkbox" name="goods">全选</p>
+        <span>合计金额</span>
+        <i class="money"></i>
+        <b class="pay">支付</b>
+    </div> -->
+</body>
+<script src="js/ajax.2.0.js"></script>
+<script src="js/cookie.js"></script>
+<script src="js/car.js"></script>
+</html>
